@@ -71,7 +71,7 @@ const T = {
       secure:{label:"安定型",color:"#60cc80",desc:"比較的バランスの取れた愛着スタイル。関係の中で安心感を持ちやすく、適度な距離感を保てます。",tips:["このバランスを意識して維持する","パートナーの愛着ニーズを理解する","定期的な自己チェックを続ける"]},
       disorganized:{label:"無秩序型",color:"#d080e0",desc:"不安と回避の両方が高く、関係の中で混乱しやすいタイプ。近づきたいが怖いという矛盾した気持ちを抱えます。",tips:["感情パターンを記録して自己理解を深める","信頼できる安全な関係から少しずつ経験を積む","専門家のサポートも選択肢として活用する"]},
     },
-    attAxisLabels:["不安傾向","安定性","回避傾向","自立","信頼"],
+    attAxisLabels:["不安傾向","無秩序","回避傾向","安定性"],
     attAnxious:"不安", attAvoidant:"回避",
     attDiagTitle:"愛着診断", attResultTitle:"診断結果",
     attSaveHome:"保存してホームへ", attRecommend:"おすすめの取り組み",
@@ -167,7 +167,7 @@ const T = {
       secure:{label:"Secure",color:"#60cc80",desc:"You have a relatively balanced attachment style. You can feel secure in relationships and maintain healthy distance.",tips:["Keep nurturing this balance","Learn your partner's attachment needs","Check in with yourself regularly"]},
       disorganized:{label:"Disorganized",color:"#d080e0",desc:"You show high levels of both anxiety and avoidance. You may feel conflicted — wanting closeness but also fearing it.",tips:["Track your emotional patterns to build self-awareness","Gradually build trust in safe relationships","Consider professional support as an option"]},
     },
-    attAxisLabels:["Anxious","Secure","Avoidant","Independent","Trust"],
+    attAxisLabels:["Anxious","Disorganized","Avoidant","Secure"],
     attAnxious:"Anxious", attAvoidant:"Avoidant",
     attDiagTitle:"Attachment quiz", attResultTitle:"Your result",
     attSaveHome:"Save & go home", attRecommend:"Suggested practices",
@@ -260,7 +260,7 @@ const T = {
       secure:{label:"安全型",color:"#60cc80",desc:"依恋风格相对平衡，能在关系中感到安心，保持适当距离。",tips:["有意识地维持这种平衡","了解伴侣的依恋需求","定期进行自我检视"]},
       disorganized:{label:"混乱型",color:"#d080e0",desc:"不安与回避都很强烈，容易在关系中感到混乱。既想亲近又害怕受伤。",tips:["记录情绪模式，加深自我理解","在安全关系中慢慢积累信任经验","也可以考虑寻求专业支持"]},
     },
-    attAxisLabels:["焦虑倾向","稳定性","回避倾向","独立性","信任"],
+    attAxisLabels:["焦虑倾向","混乱","回避倾向","安全性"],
     attAnxious:"焦虑", attAvoidant:"回避",
     attDiagTitle:"依恋测试", attResultTitle:"测试结果",
     attSaveHome:"保存并返回主页", attRecommend:"推荐练习",
@@ -353,7 +353,7 @@ const T = {
       secure:{label:"安全型",color:"#60cc80",desc:"依附風格相對平衡，能喺關係中感到安心，保持適當距離。",tips:["有意識咁維持呢種平衡","了解伴侶嘅依附需求","定期進行自我檢視"]},
       disorganized:{label:"混亂型",color:"#d080e0",desc:"不安同回避都好強烈，容易喺關係中感到混亂。想親近但又驚受傷。",tips:["記錄情緒模式，加深自我了解","喺安全關係中慢慢積累信任經驗","亦可考慮尋求專業支援"]},
     },
-    attAxisLabels:["焦慮傾向","穩定性","回避傾向","獨立性","信任"],
+    attAxisLabels:["焦慮傾向","混亂","回避傾向","安全性"],
     attAnxious:"焦慮", attAvoidant:"回避",
     attDiagTitle:"依附測試", attResultTitle:"測試結果",
     attSaveHome:"儲存並返回主頁", attRecommend:"推薦練習",
@@ -446,7 +446,7 @@ const T = {
       secure:{label:"안정형",color:"#60cc80",desc:"비교적 균형 잡힌 애착 스타일이에요. 관계에서 안정감을 느끼기 쉽고, 적당한 거리를 유지할 수 있어요.",tips:["이 균형을 의식적으로 유지하기","파트너의 애착 니즈 이해하기","정기적으로 자기 점검하기"]},
       disorganized:{label:"혼란형",color:"#d080e0",desc:"불안과 회피 모두 높은 편이에요. 가까워지고 싶지만 두렵다는 모순된 감정을 안고 있어요.",tips:["감정 패턴을 기록해 자기 이해를 깊이하기","안전한 관계에서 천천히 신뢰 쌓기","전문적인 지원을 활용하는 것도 선택지입니다"]},
     },
-    attAxisLabels:["불안 경향","안정성","회피 경향","자립","신뢰"],
+    attAxisLabels:["불안 경향","혼란","회피 경향","안정성"],
     attAnxious:"불안", attAvoidant:"회피",
     attDiagTitle:"애착 진단", attResultTitle:"진단 결과",
     attSaveHome:"저장하고 홈으로", attRecommend:"추천 활동",
@@ -539,7 +539,7 @@ const T = {
       secure:{label:"Seguro",color:"#60cc80",desc:"Tienes un estilo de apego relativamente equilibrado. Puedes sentirte seguro/a en relaciones.",tips:["Sigue cultivando este equilibrio","Aprende las necesidades de apego de tu pareja","Haz un chequeo regular"]},
       disorganized:{label:"Desorganizado",color:"#d080e0",desc:"Muestras altos niveles de ansiedad y evitación. Puedes sentirte conflictuado/a — queriendo cercanía pero también temiéndola.",tips:["Registra tus patrones emocionales para conocerte mejor","Construye confianza gradualmente en relaciones seguras","Considera el apoyo profesional como opción"]},
     },
-    attAxisLabels:["Ansioso","Seguro","Evitativo","Independiente","Confianza"],
+    attAxisLabels:["Ansioso","Desorganizado","Evitativo","Seguro"],
     attAnxious:"Ansioso", attAvoidant:"Evitativo",
     attDiagTitle:"Test de apego", attResultTitle:"Tu resultado",
     attSaveHome:"Guardar e ir al inicio", attRecommend:"Prácticas sugeridas",
@@ -632,7 +632,7 @@ const T = {
       secure:{label:"Sécure",color:"#60cc80",desc:"Vous avez un style d'attachement relativement équilibré. Vous pouvez vous sentir en sécurité dans les relations.",tips:["Continuez à cultiver cet équilibre","Apprenez les besoins d'attachement de votre partenaire","Faites un bilan régulier"]},
       disorganized:{label:"Désorganisé",color:"#d080e0",desc:"Vous présentez de hauts niveaux d'anxiété et d'évitement. Vous pouvez vous sentir partagé(e) — désirant la proximité mais la craignant aussi.",tips:["Notez vos schémas émotionnels pour mieux vous connaître","Construisez la confiance progressivement dans des relations sûres","Envisagez un soutien professionnel"]},
     },
-    attAxisLabels:["Anxieux","Sécure","Évitant","Indépendant","Confiance"],
+    attAxisLabels:["Anxieux","Désorganisé","Évitant","Sécure"],
     attAnxious:"Anxieux", attAvoidant:"Évitant",
     attDiagTitle:"Test d'attachement", attResultTitle:"Votre résultat",
     attSaveHome:"Enregistrer et rentrer", attRecommend:"Pratiques suggérées",
@@ -725,7 +725,7 @@ const T = {
       secure:{label:"Надёжный",color:"#60cc80",desc:"У вас относительно сбалансированный стиль привязанности. Вы можете чувствовать себя в безопасности в отношениях.",tips:["Продолжайте развивать этот баланс","Изучите потребности привязанности партнёра","Регулярно проверяйте себя"]},
       disorganized:{label:"Дезорганизованный",color:"#d080e0",desc:"У вас высокий уровень как тревожности, так и избегания. Вы можете чувствовать внутренний конфликт — желать близости, но бояться её.",tips:["Отслеживайте эмоциональные паттерны для самопознания","Постепенно выстраивайте доверие в безопасных отношениях","Рассмотрите профессиональную поддержку как вариант"]},
     },
-    attAxisLabels:["Тревожность","Надёжность","Избегание","Независимость","Доверие"],
+    attAxisLabels:["Тревожность","Дезорган.","Избегание","Надёжность"],
     attAnxious:"Тревожность", attAvoidant:"Избегание",
     attDiagTitle:"Тест привязанности", attResultTitle:"Ваш результат",
     attSaveHome:"Сохранить и на главную", attRecommend:"Рекомендуемые практики",
@@ -1008,17 +1008,15 @@ function getTypeInfo(r, t) {
 // ── Radar ─────────────────────────────────────────────────────────────────────
 function Radar({ result, size=250 }) {
   const t = useContext(LangCtx);
-  const cx=size/2,cy=size/2,R=86,N=5,off=-Math.PI/2;
+  const cx=size/2,cy=size/2,R=86,N=4,off=-Math.PI/2;
   const stable=Math.max(5,100-Math.max(result.anxious,result.avoidant));
-  const trust=Math.max(5,Math.round(100-result.anxious*0.55-result.avoidant*0.38));
-  const indep=Math.max(5,Math.min(100,Math.round(60-result.anxious*0.5+result.avoidant*0.25)));
+  const disorg=Math.round((result.anxious+result.avoidant)/2);
   const ax = t?.attAxisLabels || T.ja.attAxisLabels;
   const axes=[
     {label:ax[0],val:result.anxious,c:"#f08070"},
-    {label:ax[1],val:stable,c:"#60cc80"},
+    {label:ax[1],val:disorg,c:"#d080e0"},
     {label:ax[2],val:result.avoidant,c:"#70b8f0"},
-    {label:ax[3],val:indep,c:"#e8c060"},
-    {label:ax[4],val:trust,c:"#c880f0"},
+    {label:ax[3],val:stable,c:"#60cc80"},
   ];
   const pt=(i,r)=>({x:cx+r*Math.cos(i*2*Math.PI/N+off),y:cy+r*Math.sin(i*2*Math.PI/N+off)});
   const dpts=axes.map((a,i)=>pt(i,(a.val/100)*R));
@@ -1035,7 +1033,8 @@ function Radar({ result, size=250 }) {
         <path d={poly} fill="none" stroke="rgba(90,230,120,0.78)" strokeWidth="2.5"/>
         {dpts.map((p,i)=>(<g key={i}><circle cx={p.x.toFixed(1)} cy={p.y.toFixed(1)} r="9" fill={axes[i].c} opacity="0.18"/><circle cx={p.x.toFixed(1)} cy={p.y.toFixed(1)} r="5" fill={axes[i].c} stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/></g>))}
         {lpts.map((p,i)=>(<g key={i}><text x={p.x.toFixed(1)} y={(p.y-7).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="10" fill={p.c} fontWeight="700">{p.label}</text><text x={p.x.toFixed(1)} y={(p.y+8).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="11" fill="rgba(255,255,255,0.85)" fontWeight="600">{p.val}%</text></g>))}
-        <text x={cx} y={cy-5} textAnchor="middle" fontSize="15" fontWeight="800" fill={ti.color}>{ti.label}</text>
+        <text x={cx} y={ti.short==="disorganized"?cy-11:cy-5} textAnchor="middle" fontSize="15" fontWeight="800" fill={ti.color}>{ti.label}</text>
+        {ti.short==="disorganized"&&<text x={cx} y={cy+8} textAnchor="middle" fontSize="8" fill={ti.color} opacity="0.8">（回避と不安のミックス）</text>}
       </svg>
       <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",gap:"5px 12px",marginTop:4}}>
         {axes.map(a=>(<div key={a.label} style={{display:"flex",alignItems:"center",gap:3}}><div style={{width:6,height:6,borderRadius:"50%",background:a.c}}/><span style={{fontSize:9,color:"rgba(255,255,255,0.48)"}}>{a.label}</span></div>))}
@@ -1244,7 +1243,8 @@ function AttDiag({ onDone, onHome }) {
         </div>
         <div style={{display:"flex",justifyContent:"center",marginBottom:14}}><Radar result={result} size={240}/></div>
         <div style={{textAlign:"center",marginBottom:14}}>
-          <div style={{display:"inline-block",padding:"5px 18px",borderRadius:16,background:ti.color+"22",border:"1.5px solid "+ti.color+"66",color:ti.color,fontSize:13,fontWeight:800,marginBottom:7}}>{ti.label}</div>
+          <div style={{display:"inline-block",padding:"5px 18px",borderRadius:16,background:ti.color+"22",border:"1.5px solid "+ti.color+"66",color:ti.color,fontSize:13,fontWeight:800,marginBottom:ti.short==="disorganized"?3:7}}>{ti.label}</div>
+          {ti.short==="disorganized"&&<div style={{fontSize:10,color:ti.color,opacity:0.75,marginBottom:7}}>（回避と不安のミックス）</div>}
           <div style={{fontSize:12,color:TH.sub,lineHeight:1.75}}>{info.desc}</div>
         </div>
         <div style={{padding:"12px 14px",background:"rgba(255,255,255,0.05)",borderRadius:12,marginBottom:16}}>
