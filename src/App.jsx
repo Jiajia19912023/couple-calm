@@ -72,6 +72,7 @@ const T = {
       disorganized:{label:"無秩序型",color:"#d080e0",desc:"不安と回避の両方が高く、関係の中で混乱しやすいタイプ。近づきたいが怖いという矛盾した気持ちを抱えます。",tips:["感情パターンを記録して自己理解を深める","信頼できる安全な関係から少しずつ経験を積む","専門家のサポートも選択肢として活用する"]},
     },
     attAxisLabels:["不安傾向","無秩序","回避傾向","安定性"],
+    attDisorgSub:"（回避と不安のミックス）",
     attAnxious:"不安", attAvoidant:"回避",
     attDiagTitle:"愛着診断", attResultTitle:"診断結果",
     attSaveHome:"保存してホームへ", attRecommend:"おすすめの取り組み",
@@ -168,6 +169,7 @@ const T = {
       disorganized:{label:"Disorganized",color:"#d080e0",desc:"You show high levels of both anxiety and avoidance. You may feel conflicted — wanting closeness but also fearing it.",tips:["Track your emotional patterns to build self-awareness","Gradually build trust in safe relationships","Consider professional support as an option"]},
     },
     attAxisLabels:["Anxious","Disorganized","Avoidant","Secure"],
+    attDisorgSub:"(Avoidant & Anxious mix)",
     attAnxious:"Anxious", attAvoidant:"Avoidant",
     attDiagTitle:"Attachment quiz", attResultTitle:"Your result",
     attSaveHome:"Save & go home", attRecommend:"Suggested practices",
@@ -261,6 +263,7 @@ const T = {
       disorganized:{label:"混乱型",color:"#d080e0",desc:"不安与回避都很强烈，容易在关系中感到混乱。既想亲近又害怕受伤。",tips:["记录情绪模式，加深自我理解","在安全关系中慢慢积累信任经验","也可以考虑寻求专业支持"]},
     },
     attAxisLabels:["焦虑倾向","混乱","回避倾向","安全性"],
+    attDisorgSub:"（回避与焦虑的混合）",
     attAnxious:"焦虑", attAvoidant:"回避",
     attDiagTitle:"依恋测试", attResultTitle:"测试结果",
     attSaveHome:"保存并返回主页", attRecommend:"推荐练习",
@@ -354,6 +357,7 @@ const T = {
       disorganized:{label:"混亂型",color:"#d080e0",desc:"不安同回避都好強烈，容易喺關係中感到混亂。想親近但又驚受傷。",tips:["記錄情緒模式，加深自我了解","喺安全關係中慢慢積累信任經驗","亦可考慮尋求專業支援"]},
     },
     attAxisLabels:["焦慮傾向","混亂","回避傾向","安全性"],
+    attDisorgSub:"（回避同焦慮嘅混合）",
     attAnxious:"焦慮", attAvoidant:"回避",
     attDiagTitle:"依附測試", attResultTitle:"測試結果",
     attSaveHome:"儲存並返回主頁", attRecommend:"推薦練習",
@@ -447,6 +451,7 @@ const T = {
       disorganized:{label:"혼란형",color:"#d080e0",desc:"불안과 회피 모두 높은 편이에요. 가까워지고 싶지만 두렵다는 모순된 감정을 안고 있어요.",tips:["감정 패턴을 기록해 자기 이해를 깊이하기","안전한 관계에서 천천히 신뢰 쌓기","전문적인 지원을 활용하는 것도 선택지입니다"]},
     },
     attAxisLabels:["불안 경향","혼란","회피 경향","안정성"],
+    attDisorgSub:"（회피와 불안의 혼합）",
     attAnxious:"불안", attAvoidant:"회피",
     attDiagTitle:"애착 진단", attResultTitle:"진단 결과",
     attSaveHome:"저장하고 홈으로", attRecommend:"추천 활동",
@@ -540,6 +545,7 @@ const T = {
       disorganized:{label:"Desorganizado",color:"#d080e0",desc:"Muestras altos niveles de ansiedad y evitación. Puedes sentirte conflictuado/a — queriendo cercanía pero también temiéndola.",tips:["Registra tus patrones emocionales para conocerte mejor","Construye confianza gradualmente en relaciones seguras","Considera el apoyo profesional como opción"]},
     },
     attAxisLabels:["Ansioso","Desorganizado","Evitativo","Seguro"],
+    attDisorgSub:"(Mezcla evitativo y ansioso)",
     attAnxious:"Ansioso", attAvoidant:"Evitativo",
     attDiagTitle:"Test de apego", attResultTitle:"Tu resultado",
     attSaveHome:"Guardar e ir al inicio", attRecommend:"Prácticas sugeridas",
@@ -633,6 +639,7 @@ const T = {
       disorganized:{label:"Désorganisé",color:"#d080e0",desc:"Vous présentez de hauts niveaux d'anxiété et d'évitement. Vous pouvez vous sentir partagé(e) — désirant la proximité mais la craignant aussi.",tips:["Notez vos schémas émotionnels pour mieux vous connaître","Construisez la confiance progressivement dans des relations sûres","Envisagez un soutien professionnel"]},
     },
     attAxisLabels:["Anxieux","Désorganisé","Évitant","Sécure"],
+    attDisorgSub:"(Mélange évitant et anxieux)",
     attAnxious:"Anxieux", attAvoidant:"Évitant",
     attDiagTitle:"Test d'attachement", attResultTitle:"Votre résultat",
     attSaveHome:"Enregistrer et rentrer", attRecommend:"Pratiques suggérées",
@@ -726,6 +733,7 @@ const T = {
       disorganized:{label:"Дезорганизованный",color:"#d080e0",desc:"У вас высокий уровень как тревожности, так и избегания. Вы можете чувствовать внутренний конфликт — желать близости, но бояться её.",tips:["Отслеживайте эмоциональные паттерны для самопознания","Постепенно выстраивайте доверие в безопасных отношениях","Рассмотрите профессиональную поддержку как вариант"]},
     },
     attAxisLabels:["Тревожность","Дезорган.","Избегание","Надёжность"],
+    attDisorgSub:"(Смесь избегания и тревоги)",
     attAnxious:"Тревожность", attAvoidant:"Избегание",
     attDiagTitle:"Тест привязанности", attResultTitle:"Ваш результат",
     attSaveHome:"Сохранить и на главную", attRecommend:"Рекомендуемые практики",
@@ -1033,7 +1041,7 @@ function Radar({ result, size=250 }) {
         <path d={poly} fill="rgba(80,220,110,0.11)"/>
         <path d={poly} fill="none" stroke="rgba(90,230,120,0.78)" strokeWidth="2.5"/>
         {dpts.map((p,i)=>(<g key={i}><circle cx={p.x.toFixed(1)} cy={p.y.toFixed(1)} r="9" fill={axes[i].c} opacity="0.18"/><circle cx={p.x.toFixed(1)} cy={p.y.toFixed(1)} r="5" fill={axes[i].c} stroke="rgba(255,255,255,0.6)" strokeWidth="1.5"/></g>))}
-        {lpts.map((p,i)=>(<g key={i}><text x={p.x.toFixed(1)} y={(p.y-7).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="10" fill={p.c} fontWeight="700">{p.label}</text><text x={p.x.toFixed(1)} y={(p.y+8).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="11" fill="rgba(255,255,255,0.85)" fontWeight="600">{p.val}%</text>{i===1&&<text x={p.x.toFixed(1)} y={(p.y+22).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="8" fill={p.c} opacity="0.75">（回避と不安のミックス）</text>}</g>))}
+        {lpts.map((p,i)=>(<g key={i}><text x={p.x.toFixed(1)} y={(p.y-7).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="10" fill={p.c} fontWeight="700">{p.label}</text><text x={p.x.toFixed(1)} y={(p.y+8).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="11" fill="rgba(255,255,255,0.85)" fontWeight="600">{p.val}%</text>{i===1&&<text x={p.x.toFixed(1)} y={(p.y+22).toFixed(1)} textAnchor="middle" dominantBaseline="middle" fontSize="8" fill={p.c} opacity="0.75">{t?.attDisorgSub||"（回避と不安のミックス）"}</text>}</g>))}
         <text x={cx} y={cy-5} textAnchor="middle" fontSize="15" fontWeight="800" fill={ti.color}>{ti.label}</text>
       </svg>
       <div style={{display:"flex",flexWrap:"wrap",justifyContent:"center",gap:"5px 12px",marginTop:4}}>
